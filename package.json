@@ -1,0 +1,44 @@
+{
+  "name": "MangoApps",
+  "version": "1.0.0",
+  "description": "MangoApps is a web collaboration tool that let you organize anything and everything to keep your project on task.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhartham/mango_zapier.git"
+  },
+  "homepage": "https://www.mangoapps.com",
+  "author": "MangoApps <zapier@mangospring.com>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "engines": {
+    "node": "6.10.3",
+    "npm": ">=3.10.10"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "form-data": "^2.3.2",
+    "hashmap": "^2.3.0",
+    "moment": "^2.22.2",
+    "node-env-file": "^0.1.8",
+    "request": "^2.85.0",
+    "underscore": "^1.9.1",
+    "valid-url": "^1.0.9",
+    "valid_url": "^1.1.1",
+    "validity-url": "^1.0.0",
+    "zapier-platform-core": "6.0.0"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "should": "11.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/siddhartham/mango_zapier/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+}
